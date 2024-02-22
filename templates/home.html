@@ -1,0 +1,9 @@
+{% extends "base.html" %}
+
+{% block content %}
+    <dd class="intro">Welcome to Time ill spent!</dd>
+    <dd class="secondary">Here you get to spend your time in the worst possible way!</dd>
+    <div class="series-link-container">
+        <a href="{% url 'series:series_main' %}" class="series-link">Series</a>
+    </div>
+{% endblock %}

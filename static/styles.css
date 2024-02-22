@@ -1,0 +1,144 @@
+
+body {
+    background-color: black;
+    color: white;
+}
+
+.navbar {
+    background-color: #ffc107;
+    margin-bottom: 20px;
+   
+}
+
+.custom-card-container {
+    display: flex;
+    flex-wrap: wrap; /* Allow cards to wrap to the next row */
+    justify-content: space-between; /* Distribute space between cards */
+}
+
+.custom-card {
+    width: calc(33.33% - 10px); /* Set width for each card (subtracting margins) */
+    margin-bottom: 20px; /* Add some bottom margin between rows */
+    background-color: #343a40;
+}
+
+
+.card-header {
+    background-color: #343a40;
+    color: white;
+}
+
+.card-header .card-title {
+    color: white;
+}
+
+.card-header .list-group-item {
+    color: white;
+}
+
+.card-header .list-group-item a {
+    color: #ffc107;
+}
+
+.link-warning {
+    color: #ffc107;
+}
+
+.link-warning:hover {
+    color: #ffcd39;
+}
+
+
+.title {
+    color: #ffc107;
+    font-weight: bold; 
+}
+
+.seasons {
+    color: #ffc107;
+    font-weight: bold; 
+}
+
+.release {
+    color: #ffc107;
+    font-weight: bold; 
+}
+
+
+.thoughts-title {
+    color: #ffc107;
+    text-align: center; 
+    margin-bottom: 20px; 
+}
+
+.thoughts {
+    font-style: italic; 
+}
+
+.intro {
+    color: #ffc107;
+    font-style: italic; 
+    font-weight: bold;
+    text-align: center; 
+    margin-bottom: 20px; 
+    margin-top: 50px;
+    font-size: 1.5em;
+}
+
+.secondary {
+    color: #ffc107;
+    font-style: italic; 
+    font-weight: bold;
+    text-align: center; 
+    margin-bottom: 20px; 
+    margin-top: 20px; 
+    font-size: 1.5em;
+}
+
+.series-link-container {
+    text-align: center;
+    margin-top: 50px; /* Add some top margin */
+}
+
+/* Style for the series link */
+.series-link {
+    color: #ffc107; /* Text color */
+    font-size: 1.2em; /* Increase font size */
+    text-decoration: none; /* Remove underline */
+    background-color: #000000; /* Background color */
+    padding: 10px 20px; /* Add padding */
+    border-radius: 5px; /* Add rounded corners */
+    transition: background-color 0.3s ease; /* Smooth transition */
+}
+
+/* Hover effect for the series link */
+.series-link:hover {
+    background-color: #ffc107; /* Darker background color on hover */
+    color: #000000;
+}
+
+
+
+.back-button {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background-color: rgb(0, 0, 0); 
+    color: #ffc107;
+    border: none; 
+    padding: 8px 16px; 
+    border-radius: 4px; 
+    text-decoration: none; 
+}
+
+
+.back-button:hover {
+    background-color: #ffc107;
+    color: rgb(12, 12, 0);
+}
+
+.badge {
+    background-color: #ffc107;
+    color: rgb(12, 12, 0);
+}
+

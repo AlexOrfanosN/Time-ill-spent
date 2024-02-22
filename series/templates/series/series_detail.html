@@ -1,0 +1,23 @@
+{% extends 'base.html' %}
+
+{% block content %}
+    <dl>
+        <div>
+            <dt class="title">Title</dt>
+            <dd>{{ serie.title }}</dd>
+        </div>
+        <div>
+            <dt class="seasons">Seasons</dt>
+            <dd>{{ serie.seasons }}</dd>
+        </div>
+        <div>
+            <dt class="release">Year of release</dt>
+            <dd>{{ serie.release_year }}</dd>
+        </div>
+        <div class="thoughts-title">
+            <h5>My thoughts on {{ serie.title }}</h5>
+        </div>
+        <dd class="thoughts">{{ serie.thoughts }}</dd>
+        <a href="{% url 'series:series_main' %}" class="btn btn-primary back-button">Back to Series Page</a>
+    </dl>
+{% endblock %}
